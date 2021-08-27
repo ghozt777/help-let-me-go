@@ -17,15 +17,13 @@
     align-items: center;
     justify-content: space-evenly;
     min-height: 100vh;
-    border: 3px;
-    border-style: solid;
 }
 
 .iFrame__container{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding:2px;
+    padding:8px;
     border-radius: 1.2rem;
     box-shadow: 0px 6px 6px -1px #818CF8;
     background-color: #C7D2FE;
@@ -33,7 +31,7 @@
 }
 
 #help-let-me-go{
-    width: 80%;
+    width: 100%;
     margin: 6px;
     border-radius: 1rem;
 }
