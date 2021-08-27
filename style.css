@@ -61,3 +61,9 @@ h1{
 #help-let-me-go.hide{
     display: none;
 }
+
+@media all and (max-width: 700px){
+    h1{
+        font-size: 1rem;
+    }
+}
