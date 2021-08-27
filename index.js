@@ -1,14 +1,3 @@
-console.log("test")
-let x = 0
-const countText = document.getElementById("test")
-let count = 0
-countText.innerHTML = "Count is " + count
-const increment = () =>  {
-
-    count++
-    countText.innerHTML = "Count is " + count
-
-}
 
 const videoPlayer = document.getElementById("help-let-me-go")
 const buttonToggle = document.getElementById("toggle")
