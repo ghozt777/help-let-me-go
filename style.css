@@ -73,6 +73,10 @@ h1{
         font-size: 1rem;
     }
 
+    body{
+        height: 120vh;
+    }
+
     .iFrame__container iFrame {
         height: max-content;
     }
