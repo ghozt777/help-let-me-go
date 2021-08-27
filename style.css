@@ -73,6 +73,9 @@ h1{
     h1{
         font-size: 1rem;
     }
+    .container{
+        width: 98%;
+    }
 
     body{
         height: 120vh;
@@ -80,6 +83,7 @@ h1{
 
     .iFrame__container{
         padding: 8px;
+        border-width: 2px;
 
     }
 
