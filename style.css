@@ -23,7 +23,7 @@ h1{
 
 @keyframes container-animation {
     0% {box-shadow: none;}
-    100% {box-shadow: 10px 10px 15px #39FF14;}
+    100% {box-shadow: 0px 0px 20px 10px #39FF14;}
 }
 
 .container{
