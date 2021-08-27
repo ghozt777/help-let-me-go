@@ -1,0 +1,43 @@
+@import url("https://logan-ui.netlify.app/library/component.css");
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    padding: 10px;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    width: 98%;
+    height: 120vh;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    border: 3px;
+    border-style: solid;
+}
+
+.iFrame__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:2px;
+    border-radius: 1.2rem;
+    box-shadow: 0px 6px 6px -1px #818CF8;
+    background-color: #C7D2FE;
+
+}
+
+#help-let-me-go{
+    width: 80%;
+    margin: 6px;
+    border-radius: 1rem;
+}
+
+#help-let-me-go.hide{
+    display: none;
+}
