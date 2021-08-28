@@ -1,30 +1,10 @@
 @import url("https://logan-ui.netlify.app/library/component.css");
 
 *{
-    padding:0;
     margin:0;
+    padding:0;
     box-sizing: border-box;
-
-    background-color: #121212;
-    color: #86FF70;
-}
-
-body{
-    height:200vh;
-    width: 100vw;
     position: relative;
-}
-
-h1{
-    transition: 350ms;
-    animation: text-animation 1s infinite alternate;
-    font-size: 2rem; 
-}
-
-
-@keyframes text-animation {
-    0% {text-shadow: none;}
-    100% {text-shadow: 4px 4px 15px #39FF14;}
 }
 
 @keyframes container-animation {
@@ -32,63 +12,55 @@ h1{
     100% {box-shadow: 0px 0px 20px 10px #39FF14;}
 }
 
-.container{
-    margin:auto;
-    display:flex;
-    flex-direction: column;
-    width: 80%;
-    height: 100%;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 10rem;
+@keyframes text-animation {
+    0% {text-shadow: none;}
+    100% {text-shadow: 4px 4px 15px #39FF14;}
 }
 
-.iFrame__container{
+
+body{
+    background-color: #121212;
+    margin-top: 2rem;
+    width: 100vw;
+    height: max-content;
+}
+
+.title{
+    transition: 350ms;
+    animation: text-animation 1s infinite alternate;
+    font-size: 2rem; 
+    color: #86FF70;
+}
+
+.body__container{
+    height: 100%;
     width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.thumbnail__container{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    padding: 24px;
+    margin-top: 1rem;
+}
+
+.thumbnail-card{
+    margin-top: 2rem;
+    width: max-content;
+    padding: 12px;
     border-radius: 1.2rem;
     border-width: 8px;
     border-color: #24E500;
     border-style: solid;
     background-color: #282828;
     animation: container-animation 1s infinite alternate;
-
 }
 
-#help-let-me-go{
-    width: 100%;
-    margin: 6px;
-    border-radius: 0.6rem;
-}
-
-#help-let-me-go.hide{
-    display: none;
-}
-
-@media all and (max-width: 700px){
-    h1{
-        font-size: 1rem;
-    }
-    .container{
-        width: 98%;
-    }
-
-    body{
-        height: 120vh;
-    }
-
-    .iFrame__container{
-        padding: 8px;
-        border-width: 2px;
-
-    }
-
-    .iFrame__container iFrame {
-        height: max-content;
-    }
-
+.thumbnail-card img{
+    min-width: 450px;
 }
