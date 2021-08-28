@@ -9,7 +9,7 @@
 
 @keyframes container-animation {
     0% {box-shadow: none;}
-    100% {box-shadow: 0px 0px 20px 10px #39FF14;}
+    100% {box-shadow: 0px 0px 20px 5px #39FF14;}
 }
 
 @keyframes text-animation {
@@ -47,6 +47,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .thumbnail-card{
@@ -54,13 +55,21 @@ body{
     width: max-content;
     padding: 12px;
     border-radius: 1.2rem;
-    border-width: 8px;
+    border-width: 4px;
     border-color: #24E500;
     border-style: solid;
     background-color: #282828;
     animation: container-animation 1s infinite alternate;
 }
 
+.divider{
+    margin-top: 0.8rem;
+    width: 80%;
+    padding-top: 0.2rem;
+    background-color: #24E500;  
+    animation: container-animation 1s infinite alternate;
+}
+
 .thumbnail-card img{
-    min-width: 450px;
+    max-width: 700px;
 }
